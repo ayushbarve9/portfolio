@@ -209,9 +209,10 @@ function initCertificates() {
         <div class="cert-footer-meta">
           <div class="cert-action-row">
             <div class="cert-id-tag">${cert.verificationCode}</div>
-            <a href="${cert.certImage}" target="_blank" rel="noopener" class="btn-view-cert">
+            ${(cert.certUrl || cert.certImage) ? `
+            <a href="${cert.certUrl || cert.certImage}" target="_blank" rel="noopener" class="btn-view-cert">
               <span>View Certificate ↗</span>
-            </a>
+            </a>` : ''}
           </div>
           <div class="cert-tags-row">
             ${cert.tags.map(t => `<span class="cert-pill">${t}</span>`).join("")}

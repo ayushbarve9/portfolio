@@ -15,7 +15,6 @@
 ├── style.css         # Glassmorphic warm sand design tokens & styling
 ├── script.js         # Interactive DOM logic, modal case studies, animations
 ├── data.js           # Centralized configuration & portfolio data
-├── certificates/     # Verified certification credential assets
 └── README.md         # Documentation
 ```
 

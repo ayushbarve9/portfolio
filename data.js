@@ -253,7 +253,7 @@ const PORTFOLIO_DATA = {
     }
   ],
 
-  // Reordered Verified Certifications with direct redirection to certificate images:
+  // Reordered Verified Certifications:
   // Row 1: Node.js (HackerRank) -> Cyber Job (Deloitte) -> Internal Audit (Goldman Sachs)
   // Row 2: Claude Code 101 (Anthropic) -> Claude 101 (Anthropic)
   certificates: [
@@ -268,8 +268,7 @@ const PORTFOLIO_DATA = {
       verificationCode: "ID: D3B342648BBB",
       description: "Passed the official HackerRank skill certification test for Node.js, event-driven I/O, server architectures, and asynchronous control flows.",
       tags: ["Node.js", "JavaScript", "Asynchronous I/O", "REST Services"],
-      brandColor: "#2ec866",
-      certImage: "certificates/hackerrank-node.png"
+      brandColor: "#2ec866"
     },
     {
       id: "deloitte-cyber",
@@ -282,8 +281,7 @@ const PORTFOLIO_DATA = {
       verificationCode: "6aa173d1ef005a644621a05c",
       description: "Completed practical simulation tasks in practical Cyber Security, threat assessment, and enterprise defensive strategies authorized by Tina McCreery, Chief HR Officer, Deloitte.",
       tags: ["Cybersecurity", "Threat Analysis", "Security Strategy", "Incident Assessment"],
-      brandColor: "#86bc25",
-      certImage: "certificates/deloitte-cyber.png"
+      brandColor: "#86bc25"
     },
     {
       id: "goldman-sachs-audit",
@@ -296,8 +294,7 @@ const PORTFOLIO_DATA = {
       verificationCode: "6a9fea431c45172ff21c288f",
       description: "Completed simulation tasks covering Foundations of Internal Audit and Risk Assessment in Global Banking & Markets authorized by Tom Brunskill, Co-Founder of Forage.",
       tags: ["Risk Assessment", "Global Banking", "Audit Analytics", "Internal Controls"],
-      brandColor: "#7399c6",
-      certImage: "certificates/goldman-sachs-audit.png"
+      brandColor: "#7399c6"
     },
     {
       id: "claude-code-101",
@@ -310,8 +307,7 @@ const PORTFOLIO_DATA = {
       verificationCode: "Anthropic Verified",
       description: "Certificate of Completion for mastering Claude Code architecture, programmatic AI tool integration, and agentic software workflows.",
       tags: ["Claude Code", "Agentic AI", "Prompt Architecture", "AI Tooling"],
-      brandColor: "#65764d",
-      certImage: "certificates/claude-code-101.png"
+      brandColor: "#65764d"
     },
     {
       id: "claude-101",
@@ -324,8 +320,7 @@ const PORTFOLIO_DATA = {
       verificationCode: "Anthropic Verified",
       description: "Certificate of Completion covering fundamental Claude capabilities, conversational context management, and generative model deployment.",
       tags: ["Anthropic", "Generative AI", "LLM Foundations", "System Prompting"],
-      brandColor: "#d97706",
-      certImage: "certificates/claude-101.png"
+      brandColor: "#d97706"
     }
   ],
 
