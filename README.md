@@ -18,24 +18,6 @@
 └── README.md         # Documentation
 ```
 
-## 💻 Local Development
-
-To run this site locally:
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/ayushbarve9/portfolio.git
-   ```
-2. Navigate into the folder:
-   ```bash
-   cd portfolio
-   ```
-3. Start any local static server (e.g. Python):
-   ```bash
-   python -m http.server 8000
-   ```
-4. Open [http://localhost:8000](http://localhost:8000) in your browser.
-
 ## 📬 Contact & Connect
 
 - **Email**: [22barveayush@gmail.com](mailto:22barveayush@gmail.com)
