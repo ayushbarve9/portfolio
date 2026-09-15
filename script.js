@@ -194,7 +194,7 @@ function initCertificates() {
               <span>${cert.icon}</span>
               <span>${cert.issuer}</span>
             </span>
-            <span class="cert-date">${cert.issuedDate}</span>
+            <span class="cert-date">${cert.issuedDate || ''}</span>
           </div>
 
           <h3 class="cert-title">${cert.title}</h3>
